@@ -33,3 +33,4 @@ jobs:
         curl https://raw.githubusercontent.com/unixpickle/kahoot-hack/master/kh-tmux-setup.sh > kh-tmux-setup.sh
         chmod +x kh-tmux-setup.sh
         ./kh-tmux-setup.sh
+    - run: main.go
